@@ -1,0 +1,11 @@
+setup.py
+satelitedl/__init__.py
+satelitedl/__main__.py
+satelitedl/options.py
+satelitedl/scrapeimg.py
+satelitekouchi.egg-info/PKG-INFO
+satelitekouchi.egg-info/SOURCES.txt
+satelitekouchi.egg-info/dependency_links.txt
+satelitekouchi.egg-info/entry_points.txt
+satelitekouchi.egg-info/requires.txt
+satelitekouchi.egg-info/top_level.txt

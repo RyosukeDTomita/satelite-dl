@@ -1,0 +1,6 @@
+argparse
+bs4
+datetime
+os
+typing
+urllib
