@@ -2,10 +2,11 @@
 - [ABOUT](#ABOUT)
 - [ENVIRONMENT](#ABOUT)
 - [INSTALATION](#INSTALATION)
-- [HOW TO USE](#HOW TO USE)
+- [HOWTOUSE](#HOWTOUSE)
 
 # ABOUT
 Download satelite data picture from [高知大学気象情報wiki](http://weather.is.kochi-u.ac.jp/sat/ALL/)
+
 ![sample](sample/test.png)
 
 # ENVIRONMENT
@@ -32,7 +33,7 @@ wget https://github.com/RyosukeDTomita/satelite-dl/blob/master/dist/satelite-dl-
 pip install satelite-dl-0.0.1.tar.gz
 ```
 
-# HOW TO USE
+# HOWTOUSE
 
 ## run from source cord
 - default output dir is dirname(__file__)
