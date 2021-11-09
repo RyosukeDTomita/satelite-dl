@@ -5,9 +5,11 @@
 - [HOWTOUSE](#HOWTOUSE)
 
 # ABOUT
-Download satelite data picture from [高知大学気象情報wiki](http://weather.is.kochi-u.ac.jp/sat/ALL/)
+- Download satelite data picture from [高知大学気象情報wiki](http://weather.is.kochi-u.ac.jp/sat/ALL/)
+- SSSSYYMMDDHHCCC.pgm.gz: SSSS ... satelitename, YY ... 年(下2桁), MM ... month, DD ... day, HH ... hour(GMT), CCC ... [channel](https://www.data.jma.go.jp/mscweb/ja/info/spsg_ahi.html)
 
 ![sample](sample/test.png)
+
 
 # ENVIRONMENT
 I used the following environment.
@@ -58,4 +60,10 @@ python3 -m satelitedl --date 1999 -o <output_dir_path> # yearly data
 
 ```shell
 satelite-dl --date 19990101 -o <output_dir_path>
+```
+
+## expand file
+
+```shell
+gunzip 2020/12/*/
 ```
