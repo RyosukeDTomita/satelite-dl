@@ -35,7 +35,7 @@ wget https://github.com/RyosukeDTomita/satelite-dl/blob/master/dist/satelite-dl-
 pip install satelite-dl-0.0.1.tar.gz
 ```
 
-## check instalation is sucess
+## check instlation is sucess
 
 ```
 pip list | grep satelite-dl
